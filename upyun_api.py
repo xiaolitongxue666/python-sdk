@@ -83,14 +83,14 @@ def main():
     # local-dev
     # https://upyun.dev.moicen.com/music-room/trans_test_mxl.mxl
 
-    # # Download mxl file
-    # download_file = 'trans_test_mxl.mxl'
-    # upyun_path = '/music-room/trans_test_mxl.mxl'
-    # download_result = download(up, download_file, upyun_path)
-    # if download_result is not None:
-    #     print(f' =====>>> Download file {download_file} success')
-    # else:
-    #     print(f' =====>>> Download file {download_file} fail')
+    # Download mxl file
+    download_file = 'trans_test_mxl.mxl'
+    upyun_path = '/music-room/trans_test_mxl.mxl'
+    download_result = download(up, download_file, upyun_path)
+    if download_result is not None:
+        print(f' =====>>> Download file {download_file} success')
+    else:
+        print(f' =====>>> Download file {download_file} fail')
 
     # Upload mxl file
     upload_file = 'trans_test_mxl.mxl'
