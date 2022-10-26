@@ -1,3 +1,9 @@
+# User
+.idea/
+*.log
+*.mxl
+settings.py
+
 *.py[cod]
 
 # C extensions
