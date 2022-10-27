@@ -2,6 +2,8 @@
 .idea/
 *.log
 *.mxl
+*.mp4
+Pipfile.lock
 settings.py
 
 *.py[cod]
